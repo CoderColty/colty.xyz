@@ -1,0 +1,6 @@
+.taskbar{position:fixed;bottom:0;left:0;right:0;height:34px;background:var(--win-gray);border-top:2px solid #fff;border-left:2px solid #fff;border-right:2px solid #808080;border-bottom:2px solid #808080;display:flex;align-items:center;padding:0 8px;gap:8px;box-sizing:border-box}
+.start-button{background:var(--win-gray);border:2px outset #fff;padding:4px 8px;font-weight:bold;display:flex;align-items:center;gap:6px;cursor:pointer}
+.start-button img{width:16px;height:16px;display:block}
+.taskbar-items{display:flex;align-items:center;gap:6px;margin-left:8px}
+.taskbar-item{background:var(--win-gray);border:2px outset #fff;padding:4px 8px;font-size:13px;cursor:pointer;white-space:nowrap}
+.taskbar-item.active{border:2px inset #fff;background:#a0a0a0}

@@ -1,0 +1,1 @@
+const desktop = new Desktop(document.getElementById('desktop'));
